@@ -44,6 +44,8 @@ yarn-error.log
 testem.log
 /typings
 
+# Trigger run 0
+
 # System Files
 .DS_Store
 Thumbs.db
