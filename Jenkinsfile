@@ -21,9 +21,8 @@ pipeline {
             steps{
                 script {
                     echo "Start Deploying the application..."
-                    def dockerCmd = 'docker run -p 3080:3080 -d sergevismok/demo-app:1.0'
                     sshagent(['ec2-server-key']) {
-                        echo "Deployment Complete 1 Successfully..."
+                        echo "Will Shh Later..."
                     }
                     echo "Deployment Complete Successfully..."
                 }
